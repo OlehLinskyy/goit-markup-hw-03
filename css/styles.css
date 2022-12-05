@@ -24,7 +24,10 @@ body {
 .section {
   padding: 120px 0;
 }
-section:nth-child(3) {
+.section:nth-child(2){
+  padding-bottom: 0;
+}
+section:nth-child(4) {
   background-color: var(--light);
 }
 .image {
@@ -39,6 +42,7 @@ section:nth-child(3) {
 .hero {
   background-color: var(--dark);
   text-align: center;
+  padding: 192px 0;
 }
 .portfolio {
   padding-top: 96px;
@@ -114,9 +118,6 @@ p,
   text-align: center;
   margin-bottom: 72px;
   margin-top: 0;
-}
-.list ~ .subject {
-  margin-top: 120px;
 }
 /* ==================== logo ==================== */
 .logo {
